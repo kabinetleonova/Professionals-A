@@ -6,7 +6,7 @@
     
 }
 
-
+/* Заголовок */
 
 header {
     width: 100%;
@@ -44,7 +44,7 @@ header h1:hover {
     transition: all .4s ease;
 }
 
-
+/* Меню навигации */
 
 nav {
     line-height: 100px;
@@ -73,7 +73,7 @@ nav li:hover a {
     transition: all .4s ease;
 }
 
-
+/* Тело сайта */
 
 main {
     background-color: #e3e3e3;
@@ -88,6 +88,8 @@ main h1 {
     color: #ff473e;
 }
 
+/* Карточки о нас */
+
 .cards {
     display: flex;
     justify-content: center;
@@ -96,6 +98,7 @@ main h1 {
 .card-body {
     padding: 20px; 
     margin: 40px;
+    margin-bottom: 100px;
     background-color: white;
     border-radius: 10px;
     width: 300px;
@@ -123,4 +126,18 @@ main h1 {
 .card-body:hover {
     transform: scale(1.15);
     transition: all .6s ease;
+}
+
+/* Форма поиска автомобля */
+
+.find-form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-body {
+    padding: 20px; 
+    margin: 40px;
+    background-color: white;
+    border-radius: 10px;
 }

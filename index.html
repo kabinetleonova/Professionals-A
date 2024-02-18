@@ -63,28 +63,35 @@
 
         <h1>Готовы выбрать машину?</h1>
         <div class="find-form">
-            <form>
-                <select>
-                    <option>Эконом</option>
-                    <option>Премиум</option>
-                </select>
-
-                <input list="brands">
-                <datalist id="brands">
-                    <option>Audi</option>
-                    <option>BMW</option>
-                    <option>Hyundai</option>
-                    <option>Reno</option>
-                </datalist>
-
-                <input list="models">
-                <datalist id="models">
-                    <option>Audi</option>
-                    <option>BMW</option>
-                    <option>Lada</option>
-                    <option>Reno</option>
-                </datalist>
-            </form>
+            <div class="form-body">
+                <form>
+                    <p>Класс</p>
+                    <select class="form-">
+                        <option>Эконом</option>
+                        <option>Премиум</option>
+                    </select>
+    
+                    <p>Марка</p>
+                    <input list="brands">
+                    <datalist id="brands">
+                        <option>Audi</option>
+                        <option>BMW</option>
+                        <option>Hyundai</option>
+                        <option>Reno</option>
+                    </datalist>
+    
+                    <p>Модель</p>
+                    <input list="models">
+                    <datalist id="models">
+                        <option>X5</option>
+                        <option>Solaris</option>
+                        <option>Logan</option>
+                        <option>A1</option>
+                    </datalist>
+    
+                    <button>Поиск</button>
+                </form>
+            </div>
         </div>
     </main>
 
