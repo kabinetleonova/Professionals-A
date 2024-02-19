@@ -29,7 +29,7 @@
                 </li>
 
                 <li>
-                    <a href="#">Бронирование</a>
+                    <a href="booking.html">Бронирование</a>
                 </li>
 
                 <li>
@@ -65,14 +65,14 @@
         <div class="find-form">
             <div class="form-body">
                 <form>
-                    <p>Класс</p>
-                    <select class="form-">
+                    <p class="form-label">Класс</p>
+                    <select class="form-select">
                         <option>Эконом</option>
                         <option>Премиум</option>
                     </select>
     
-                    <p>Марка</p>
-                    <input list="brands">
+                    <p class="form-label">Марка</p>
+                    <input list="brands" class="form-input">
                     <datalist id="brands">
                         <option>Audi</option>
                         <option>BMW</option>
@@ -80,8 +80,8 @@
                         <option>Reno</option>
                     </datalist>
     
-                    <p>Модель</p>
-                    <input list="models">
+                    <p class="form-label">Модель</p>
+                    <input list="models" class="form-input">
                     <datalist id="models">
                         <option>X5</option>
                         <option>Solaris</option>
@@ -89,12 +89,57 @@
                         <option>A1</option>
                     </datalist>
     
-                    <button>Поиск</button>
+                    <button class="form-btn">Поиск</button>
                 </form>
+            </div>
+        </div>
+
+        <h1>Новостной блог</h1>
+        <div class="blog">
+            <div class="post-body">
+                <img class="post-img" src="Static\IMG\blog1.png">
+                <p class="post-title">Мы открыли сайт!</p>
+                <p class="post-text">Теперь вы можете арендовать наши машины с помощью удобного веб-интерфейса</p>
+                <button class="post-btn">Подробнее...</button>
+            </div>
+
+            <div class="post-body">
+                <img class="post-img" src="Static\IMG\blog2.png">
+                <p class="post-title">BMW теперь в нашем автопарке</p>
+                <p class="post-text">Появились такие модели как X5, 8 серия Cabrio, M8, X7, IX </p>
+                <button class="post-btn">Подробнее...</button>
+            </div>
+
+            <div class="post-body">
+                <img class="post-img" src="Static\IMG\blog3.png">
+                <p class="post-title">Донинтех лучше всех!</p>
+                <p class="post-text">Лучшее место, куда вы можете поступить на IT специальность</p>
+                <button class="post-btn">Подробнее...</button>
+            </div>
+
+            <div class="post-body">
+                <img class="post-img" src="Static\IMG\blog4.png">
+                <p class="post-title">15% скидка!</p>
+                <p class="post-text">Если вы с нами в первые, вам доступна скидка на первую аренду</p>
+                <button class="post-btn">Подробнее...</button>
             </div>
         </div>
     </main>
 
+
+
+    <footer>
+        <div class="footer-nav">
+            <a href="#">Акции</a>
+            <a href="booking.html">Бронирование</a>
+            <a href="#">Личный кабинет</a>
+        </div>
+
+        <div class="contact">
+            <p>Все права защищены <b class="text-orange">&copy Championship Module A</b></p>
+            <a href="tel:+78004238282">Тел.: +78004238282</a>
+        </div>
+    </footer>
 
 
 </body>
